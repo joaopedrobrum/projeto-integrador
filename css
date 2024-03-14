@@ -1,1 +1,105 @@
-#sei la
+/* CONFIGURAÇOES DO HEADER */
+.cabecalho{
+    background-color: rgb(98, 128, 228);
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: rgb(15, 2, 29);
+
+    
+}
+
+
+
+body{
+background-color: rgb(106, 115, 245);
+
+}
+
+.container{
+
+    background-color: rgb(150, 160, 243);
+    margin-top: 80px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+/* CONFIGURAÇOES PARA MENU1 */
+#menu1{
+
+    background-color: rgb(98, 128, 228);
+    width: 100%;
+    text-align: center;
+   padding:0%;
+   margin:0%;
+
+}
+#menu1 li{
+display: inline;
+margin-right: 20px;
+float: left;
+text-align: center;
+
+}
+
+#menu1 li a{
+    display: block;
+    color: rgb(243, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+
+}
+#menu1 a{
+text-decoration: none;
+color: rgb(247, 18, 18);
+
+}
+
+#menu1 li a:hover {
+    background-color: #6881ee; /* Cor de fundo ao passar o mouse */
+    color: black; /* Cor do texto ao passar o mouse */
+}
+#menu1 ul li{
+
+list-style-type: none;
+margin-left: 30vh;
+}
+#menu1 li{
+margin-bottom: 10px;
+
+
+}
+
+/* CONFIGURAÇOES PARA CONTEUDO */
+.conteudo{
+
+    background-color: rgb(238, 239, 250);
+    padding-bottom: 100px;
+
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  width: 100%;
+  height:100%;
+  /* Adicione mais estilos conforme necessário */
+  
+}
+.conteudo p{
+   text-align: center;
+   margin-bottom: 50%;
+    font-size: 20px;
+   
+
+}
+
